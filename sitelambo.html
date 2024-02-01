@@ -1,57 +1,85 @@
-<!DOCTYPE html>
-<html lang="pt-pt">
-<head>
+<html><!-- inicializar o html-->
+
+<head><!--meta de dados do site-->
     <title>Lamborghini Aventador SV</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!--chamda de css-->
+    <!--chamada de jv-->
+    <!--meta tas paera facebook,google, etc...-->
+    <link rel="shortcut icon" href="favicon.ico">
+    
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 20px;
-            text-align: center; /* Centraliza o conteúdo */
+        #menu {width: 100%; margin: 0;}
+        #menu a {
+            display: inline-block;
+            width: 20%;
+            background-color: black;
+            color: antiquewhite;
+            text-align: center;
+            padding: 10px;
         }
-
-        h1 {
-            color: #333;
-        }
-
-        img {
-            display: block;
-            margin: 0 auto;
-            max-width: 100%;
-            height: auto;
-            border: 2px solid #333;
-            border-radius: 10px;
-            margin-top: 20px;
-        }
-
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #3498db;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 20px;
-        }
-
-        button:hover {
-            background-color: #2980b9;
-
+        #menu a:hover {
+            background-color: aquamarine;
         }
     </style>
-</head>
-<body>
-    <h1>Lamborghini Aventador SV Faster than a 700-4</h1>
-    <h1>770hp</h1>
-    <h1>with a V12 engine</h1>
-    <img src="lamborghini-aventador-sv-roadster-3_4rear_open.jpg" alt="Lamborghini"> 
 
-    <!-- Botão com link para o vídeo -->
-    <a href="https://www.youtube.com/watch?v=ql94IYUrwXY" target="_blank">
-        <button>Assista ao Vídeo de Apresentação</button>
-    </a>
+</head>
+
+<!--div = para criar caixas para organizar-->
+<!--id,class = como se fosse um nome a div-->
+<body><!-- estretura do site-->
+
+<div id="menu">
+    <a href="page1.html" title="Menu 1" target="_self">Menu 1</a>
+    <a href="page2.html" title="Menu 2" target="_self">Menu 2</a>
+    <a href="page3.html" title="Menu 3" target="_self">Menu 3</a>
+    <a href="page4.html" title="Menu 4" target="_self">Menu 4</a>
+
+
+</div>
+
+
+
+
+<div id="title">
+    <h1 class="blue">A nossa primeira aula</h1>
+    <h1 class="blue">770cv</h1>
+    <h1 class="blue">V12 engine</h1>   
+</div>
+    <!--existem 6 titulos do h1ao h6-->
+    <!--h significa heading, heading1, heading2-->
+<div style="background-color: rgb(0, 0, 0);color: rgb(252, 252, 252);">
+    <p>Lamborghini Aventador SV starts at 350 000€.</p>
+    <p>More infos</p>
+    <img src="svlambo.png" alt="lamborghini" width="300"> 
+    <!--img = imagem src= source, alt = alternative-->
+</div>
+
+<div style="background-color: black;">
+    <a href="https://www.Lamborghini.com" title="Lamborghini" target="_blank">Lamborghini</a>
+    <!--a = criar link -->
+    
+    <a href="https://youtu.be/ql94IYUrwXY?si=Arn1gGwL3Z58pmN3" title="Video" target="_blank">Lamborghini apresentacion</a>
+    <iframe src="" frameborder="0"></iframe>
+
+</div>
+    
+<div>
+    <iframe width="450" height="250" src="https://www.youtube.com/embed/ql94IYUrwXY?si=ar2T4JJxvuQVgw0c" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+    <!--iframe = para a pagina videos oq for -->
+</div>
+
+    
+        
+    
+        
+
+
 </body>
+
+
+
+
+
+
+
 </html>
