@@ -1,0 +1,116 @@
+<html>
+
+
+<head>
+
+<title>Segundo exercicio</title>
+<link rel="stylesheet" href="estilos.css">
+
+
+
+
+</head>
+
+
+
+<body>
+
+    <table border="2px">
+        <tr align="center"> 
+        <th>segunda</th>
+        <th>terça</th>
+        <th>quarta</th>
+    </tr>
+    <tr align="center">
+        <td>programação c++</td>
+        <td>portugues</td>
+        <td>tic</td>
+
+
+    </tr>
+
+
+
+
+
+    </table>
+
+
+  
+    
+
+
+
+     
+
+    <div id="main">
+        <div class="row">
+            <div class="col50">
+            <h1>titulo principal</h1>
+            <p>Texto de exemplo la bla bla...</p>
+            <label for="username">username:</label> <!--criar a escrita -->
+            <input type="text" id="username"> <!--poder escrever-->
+            <input type="submit">
+            <label for="date">Data:</label>
+            <input type="date"> <br>
+            <label for="ficheiro">escolhe o ficheiro:</label>
+            <input type="file">
+            </div>
+        </div>
+            <div class="row">
+                <div class="col50">
+                <h2>sub-titulo</h2>
+                <h3>Mais um sub-titulo</h3>
+            </div>
+            <ul> <!--lista unorder nao ordenada-->
+                <li>pao</li>
+                <li>azeite</li>
+                <li>sumo</li>
+            </ul>
+            <ol> <!--lista ordenada-->
+                <li>pao</li>
+                <li>cocacola</li>
+                <li>pc gaming</li>
+
+            </ol>
+            <!--Lista-->
+        </div>
+
+
+       
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
+<!--display = forma como u melemento se comporta no layout
+-inline = so ocupa o espaço necessario na linha
+-inline-block = podemos ter varios na msm linha,permite dar um width sem ser auto contrario do inline
+-Block  = nao aceita mais nenhum elemento ao seu lado 
+css= cascading stylesheet
+block = 100% de width 
+inline block dá pah configurar        -->
